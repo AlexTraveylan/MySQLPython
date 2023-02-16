@@ -1,29 +1,22 @@
 # pip install mysql-connector-pyton
 
-#
-
 # database name : pythonmysql
 
-#
+    table name : pokemon
+    Fields :
 
-# table name : pokemon
+---
 
-#
+     CREATE TABLE pokemon
 
-# Fields :
+     -> (
 
-# -------
+     -> id bigint primary key not null auto_increment,
 
-# CREATE TABLE pokemon
+     -> nom varchar(100),
 
-# -> (
+     -> type varchar(100),
 
-# -> id bigint primary key not null auto_increment,
+     -> niveau int
 
-# -> nom varchar(100),
-
-# -> type varchar(100),
-
-# -> niveau int
-
-# -> );
+     -> );
